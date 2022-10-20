@@ -34,8 +34,13 @@ section>* {
 
 .menu {
     flex-basis: calc(100% - 25px);
-    
 }
+.menu-header{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
 
 .update {
     flex-basis: 25px;
@@ -55,6 +60,8 @@ marquee{
 }
 .marquee{
     flex-basis: 29px;
+    color: #0000ff;
+    font-size: 24px;
 }
 
 .content{
@@ -64,11 +71,6 @@ iframe{
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
 
 .footer{
     flex-basis: 1000px;
