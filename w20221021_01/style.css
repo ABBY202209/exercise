@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: '標楷體';    
+}
+.main{
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0 ;
+    margin: 0 auto;
+}
+
+.main>*:not(.left,.right),
+aside>*,
+section>*{
+    border: 1px solid #ccc;
+}
