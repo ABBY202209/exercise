@@ -32,11 +32,26 @@ section>*{
     display: flex;
     flex-direction: column;
 }
+.menu{
+    flex-basis: calc(100% - 25px);
+}
+.update{
+    flex-basis: 25px;
+}
 
 .right{
     flex-basis: calc(1000px - 215px);
     display: flex;
     flex-direction: column;
+}
+marquee{
+}
+.marquee{
+    flex-basis: 29px;
+
+}
+.content{
+    flex-basis: calc(100% - 29px);
 }
 
 .footer{
